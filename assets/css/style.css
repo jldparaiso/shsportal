@@ -4,11 +4,12 @@
 	box-sizing: border-box;
 }
 
-body{
-	background-image: url(../images/landing.jpg);
+/*body{
+	background-image: url(https://media.giphy.com/media/5fBH6zvK9bUXN1HKfbW/giphy.gif);
 	background-size: cover;
-}
+}*/
 
+/*landing*/
 .jumbotron hr{
 	display: block;
 	height: 2px;
@@ -17,7 +18,7 @@ body{
 }
 
 .jumbotron{
-	background-color: transparent;
+	background-color:transparent;
 	height: 100vh;
 	padding-top: 25vh;
 	padding-bottom: 25vh;
@@ -25,12 +26,12 @@ body{
 }
 
 .jumbotron h1{
-	color: gray;
+	color: white;
+	font-weight: bold;
 	letter-spacing: 3px;
 }
 
 #jumbotron-landing{
-	/*background-color: #141414;*/
 	margin: 0 auto;
 	width: 100%;
 }
@@ -43,6 +44,24 @@ body{
 	color: #141414;
 	font-weight: 700;
 }
+
+/*home*/
+.carousel{
+	height: 100%;
+}
+
+
+.section{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+
+}
+
+.section p{
+	margin-top: 50px;
+}	
+
 
 
 
