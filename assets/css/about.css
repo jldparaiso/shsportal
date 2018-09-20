@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+.logo{
+	width: 50px;
+	height: 70px;
+}
+
+
+.jumbotron{
+	background-image: url(../images/bbq3.jpg);
+	background-size: cover;
+	height: 90vh;
+	border-radius: 0;
+}
+#landing-about{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top:20vh;
+	letter-spacing: 5px;
+}
+
+.fadeIn{
+	animation-delay: 2s;
+	animation-duration: 5s;
+}
+
+#mission{
+	height: 90vh;
+	background-color: #141414;
+	color: #f2f2f2;
+}
+
+.about-tags{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#vision{
+	height: 90vh;
+	background-color: #f2f2f2;
+	color: #141414;
+}

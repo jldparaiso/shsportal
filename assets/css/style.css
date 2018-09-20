@@ -40,6 +40,10 @@
 	font-weight: 700;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 #logo{
 	width: 200px;
 	height: 230px;
@@ -54,6 +58,7 @@
 	height:130px;
 	width: 100px;
 }
+
 
 /* mobile*/
 @media only screen
