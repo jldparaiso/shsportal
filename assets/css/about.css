@@ -4,28 +4,44 @@
 	box-sizing: border-box;
 }
 
-body{
+html body{
 	background-color: black;
+	overflow-x: hidden;
 }
 
-.logo{
-	width: 50px;
-	height: 70px;
+
+.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+.nav-link:hover{
+	color: #ffa500;
+	font-weight: 900;
+}
+
+.nav-item{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: white;
 }
 
 
 .jumbotron{
-	background-image: url(../images/bbq3.jpg);
+	background-image: url(../images/bbq1.jpg);
 	background-size: cover;
-	height: 90vh;
+	height: 100vh;
 	border-radius: 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 #landing-about{
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
 	font-size: 5em;
 	padding-top:20vh;
 	letter-spacing: 5px;
+	font-weight: bold;
 }
 
 .fadeIn{
@@ -33,19 +49,52 @@ body{
 	animation-duration: 5s;
 }
 
-#mission{
-	height: 90vh;
-	background-color: #141414;
+#about{
+	height: 100vh;
+	background-color:black;
+}
+
+#about-tags{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+	font-size: 5em;
+	/*font-weight: bold;	*/
+}
+
+#about-title{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffa500;
+	font-size: 3em;
+	font-weight: bold; 
+}
+
+#about-head{
+	background-color: black;
+}
+
+.media-body p{
+	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
 }
 
-.about-tags{
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
+.media-body{
+	background-color: black;
 }
 
-#vision{
-	height: 90vh;
-	background-color: #f2f2f2;
-	color: #141414;
+.card-deck{
+	background-color: black;
+}
+
+.card-title{
+	font-size: 2.5em;
+	color: #ffa500;
+}
+
+.card{
+	background-color: black;
+	border:none;
+}
+
+.card-text{
+	color: white;
 }
