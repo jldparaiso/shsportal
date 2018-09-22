@@ -4,14 +4,12 @@
 	box-sizing: border-box;
 }
 
-html body{
-	background-color: black;
-	overflow-x: hidden;
+body{
+	background: black;
 }
 
-
 .navbar{
-	background-color: rgba(0,0,0,0.7);
+	background-color:black;
 }
 .nav-link:hover{
 	color: #ffa500;
@@ -39,7 +37,7 @@ html body{
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
 	font-size: 5em;
-	padding-top:20vh;
+	padding-top:30vh;
 	letter-spacing: 5px;
 	font-weight: bold;
 }
@@ -49,52 +47,100 @@ html body{
 	animation-duration: 5s;
 }
 
-#about{
-	height: 100vh;
-	background-color:black;
+.container{
+	background:transparent;
+	background-size: cover;
 }
 
-#about-tags{
+.jumbotron-fluid h2{
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
 	font-size: 5em;
-	/*font-weight: bold;	*/
-}
-
-#about-title{
-	font-family: 'Montserrat', sans-serif;
-	color: #ffa500;
-	font-size: 3em;
-	font-weight: bold; 
-}
-
-#about-head{
-	background-color: black;
-}
-
-.media-body p{
-	font-family: 'Montserrat', sans-serif;
-	color: #f2f2f2;
-}
-
-.media-body{
-	background-color: black;
 }
 
 .card-deck{
-	background-color: black;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .card-title{
-	font-size: 2.5em;
-	color: #ffa500;
+	font-weight: bold;
 }
 
-.card{
-	background-color: black;
-	border:none;
+#bottom{
+	background-image: url(../images/smoker.jpg);
+	background-size: cover;
+	height: 100vh;
 }
 
-.card-text{
+#bottom-text{
+	padding-top: 20vh;
+	font-weight: bold;
+}
+
+#footer{
 	color: white;
+}
+
+#logo{
+	height:130px;
+	width: 100px;
+	filter: invert(100%)
+}
+
+.fa-facebook:hover{
+	color: #3B5998;
+}
+
+.fa-twitter:hover{
+	color: #1DA1F2;
+}
+
+.fa-google-plus-g:hover{
+	color: #DB4437;
+}
+
+.fa-pinterest-square:hover{
+	color: #BD081C;
+}
+
+.fa-instagram:hover{
+	color: #262626;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+	#landing-about{
+		font-size: 2em;
+		padding-top: 30vh;
+	}
+
+	#bottom-text{
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+}
+
+/*tablet*/
+
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 960px)
+{
+	#landing-about{
+		font-size: 3em;
+		padding-top: 30vh;
+	}
+
+	#bottom-text{
+		font-size: 3em;
+		font-weight: bold;
+	}
+
+	.card-title{
+		font-size: 1em;
+	font-weight: bold;
+	}
 }
