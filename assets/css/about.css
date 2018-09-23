@@ -66,6 +66,14 @@ body{
 	font-weight: bold;
 }
 
+#history{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#history-p{
+	font-family: 'Montserrat', sans-serif;
+}
+
 #bottom{
 	background-image: url(../images/smoker.jpg);
 	background-size: cover;
