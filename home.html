@@ -34,9 +34,8 @@
     <title>Pork Gloria | Home</title>
   </head>
   <body>
-  <div id="container" class="container"> 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html"><img src="assets/images/logo2.png"></a>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,55 +57,76 @@
           </ul>
       </div>
     </nav>
-    <div class="row">
-      
-        <div class="container">
-          <div id="carouselContent" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active text-center p-4">
-                       <p>Viva La <span>Gloria</span>!</p>
-                       <br>
-                       <br>
-                  </div>
-                  <div class="carousel-item text-center p-4">
 
-                       <p><span>Meat</span> + <span>Smoke</span> + <span>Spice</span></p>
-                       <button id="contact" type="button" class="btn btn-outline-warning btn-lg">Learn More</button>
-                  </div>
-                  <div class="carousel-item text-center p-4">
-                      
-                      <p><span>BBQ</span> is not <span>fat</span>al.</p>
-                      <button id="contact" type="button" class="btn btn-outline-warning btn-lg">Check our Menu</button>
-                  </div>
-                  <div class="carousel-item text-center p-4">
-                      
-                      <p>We deliver? <span>Yes.</span></p>
-                      <button id="contact" type="button" class="btn btn-outline-warning btn-lg">Contact Us</button>
-                  </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-              </a>
+
+    <!-- start container -->
+    <div id="top-container" class="container-fluid mt-5">
+      
+      <div id="head" class="row pb-5">
+        <div id="logocon" class="col-lg-6 col-md-6 col-sm-12 mt-3">
+          <div class="text-center">
+            <a href="index.html"><img id="logo" src="assets/images/logo2.png" class="img-fluid rounded" alt="logo"></a>
           </div>
-          <!-- end carousel content -->
         </div>
-        <!-- end carousel container -->
+
+        <div id="first-column" class="col-lg-6 col-md-6 col-sm-12">
+          <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    
+                    <div class="carousel-item active text-center p-4 mt-5">
+                         <p>Viva La <span>Gloria</span>!</p>
+                         
+                    </div>
+                   
+                    <div class="carousel-item text-center p-4">
+                         <p>Yes we smoke.</p>
+                         <a href="about.html"><button id="contact" type="button" class="btn btn-outline-warning btn-lg">Learn More</button></a>
+                    </div>
+
+                    <div class="carousel-item text-center p-4">
+                        <p><span>BBQ</span> is not <span>fat</span>al.</p>
+                        <a href="menu.html"><button id="contact" type="button" class="btn btn-outline-warning btn-lg">Check our Menu</button></a>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        
+                        <p>We deliver? <span>Yes.</span></p>
+                        <a href="contact.html"><button id="contact" type="button" class="btn btn-outline-warning btn-lg">Contact Us</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
-      <!-- end row -->
-      <footer class="fixed-bottom">
-        <div class="container">
-          <div class="row col-lg-6 col-md-6 col-sm-12"></div>
-            <p><i class="fab fa-facebook fa-2x"></i>  <i class="fab fa-instagram fa-2x"></i>  <i class="fab fa-twitter fa-2x"></i>  <i class="fab fa-pinterest-square fa-2x"></i>  <i class="fab fa-google-plus-g fa-2x"></i></p>
-            <p>&copy; 2018 Pork Gloria Barbecue</p>
+    </div>
+    <!-- end container -->
+
+    <!-- start new container -->
+    <div id="bottom-container" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h1 class="mt-5">We are happy to serve our masterpiece.</h1>
+
+          <p id="par-home" class="text-justify lead mt-3">We can say not all BBQ are created equal. Our BBQ were created above the standard and and smoked it to perfection. With choice of the best ingredients and spices, we promised that this is the BBQ you're dying for. </p>
         </div>
-      </footer>
-  </div>
-  <!-- end main container -->
+        <div class=" text-center mt-5 col-lg-6 col-md-6 col-sm-12">
+          <img class="img-fluid max-width=100% height:auto;" src="assets/images/bbq5.jpg">
+        </div>
+      </div>
+
+      <img class="img-fluid max-width=100% height:auto; pt-5" src="assets/images/spice2.jpg">
+      <h2 id="homerun" class="text-center m-5 p-5">We choose only the best spices.</h2>
+
+      <div id="footer" class="text-center">
+        <p class="text-center mt-3"><a href="#top-container"><i class="fas fa-angle-double-up fa-3x text-warning"></i></a></p>
+        <p class="mb-5">Back to Top</p>
+        <img id="logo-bottom" src="assets/images/logo.png" class="rounded" alt="logo">
+        <p><i class="fab fa-facebook fa-2x"></i>  <i class="fab fa-instagram fa-2x"></i>  <i class="fab fa-twitter fa-2x"></i>  <i class="fab fa-pinterest-square fa-2x"></i>  <i class="fab fa-google-plus-g fa-2x"></i></p>
+      <p>&copy; 2018 Pork Gloria Barbecue</p>
+    </div>
+
+    </div>
+    <!-- end container -->
+    
+  
   
   </body>
 </html>

@@ -5,30 +5,42 @@
 }
 
 /*home*/
-.navbar-brand img{
-	height:130px;
-	width: 100px;
-	filter: invert(100%);
-}
-
 .nav-item{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: white;
 }
 
+.navbar{
+	background-color: black;
+}
+
 .nav-link:hover{
 	color: #ffa500;
 	font-weight: 900;
 }
-body{
-	background-image: url(https://media.giphy.com/media/xT39D2A6TB8D1Ce79C/giphy.gif);
+
+#head{
+	background-image: url(../images/smoker.jpg);
 	background-size: cover;
 }
 
+
+#logo{
+	height:230px;
+	width: 200px;
+	filter: invert(100%);
+	}
+
+#logo-bottom{
+	height:120px;
+	width: 100px;
+	}
+
+
 .carousel-item p{
 	color: white;
-	font-size: 6em;
+	font-size: 4em;
 	font-family: 'Anton', sans-serif;
 }
 
@@ -36,10 +48,6 @@ body{
 	color: #ffa500;
 }
 
-#container{
-	background-color: rgba(0,0,0,0.5);
-	height: 100vh;
-}
 
 #contact{
 	font-weight: 700;
@@ -49,6 +57,31 @@ body{
 	color: #141414;
 	font-weight: 700;
 }
+
+.container-fluid h1{
+	font-size: 4em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
+#bottom-container{
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.lead{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#homerun{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+}
+
 
 .fa-facebook:hover{
 	color: #3B5998;
@@ -71,21 +104,10 @@ body{
 }
 
 
-footer{
-	color: white;
-	font-size: 12px;
-}
-
 /* mobile*/
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 960px) {
-
-	.navbar-brand img{
-	height:80px;
-	width: 50px;
-	filter: invert(100%);
-	}
 
 	.carousel-item p{
 	color: white;
@@ -93,9 +115,29 @@ and (max-device-width : 960px) {
 	font-family: 'Anton', sans-serif;
 	}
 
-	footer p{
-		font-size: 10px;
+	#logo{
+	height:100px;
+	width: 70px;
+	filter: invert(100%);
 	}
+
+	.container-fluid h1{
+	font-size: 2em;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	}
+
+	#par-home{
+		font-size: 0.8em;
+	}
+
+	#homerun{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+}
 
 /*tablet*/
 
@@ -103,10 +145,11 @@ and (max-device-width : 960px) {
 and (min-width: 481px) 
 and (max-width: 960px)
 {
-	.navbar-brand img{
-	height:80px;
-	width: 50px;
+	#logo{
+	height:230px;
+	width: 200px;
 	filter: invert(100%);
+	margin-top: 50px;
 	}
 
 	.carousel-item p{
@@ -115,9 +158,16 @@ and (max-width: 960px)
 	font-family: 'Anton', sans-serif;
 	}
 
-	footer p{
-		font-size: 10px;
+	.container-fluid h1{
+	font-size: 2em;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
 	}
+
+	#par-home{
+		font-size: 1em;
+	}
+
 }
 
 

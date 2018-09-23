@@ -82,7 +82,7 @@ body{
 }
 
 #logo{
-	height:130px;
+	height:120px;
 	width: 100px;
 	filter: invert(100%)
 }
@@ -121,6 +121,14 @@ and (max-device-width : 480px) {
 		font-weight: bold;
 	}
 
+	#history{
+		font-size: 1.5em;
+	}
+
+	#history-p{
+		font-size: 1em;
+	}
+
 }
 
 /*tablet*/
@@ -141,6 +149,10 @@ and (max-width: 960px)
 
 	.card-title{
 		font-size: 1em;
-	font-weight: bold;
+		font-weight: bold;
+	}
+
+	.card-text{
+		font-size: 0.8em;
 	}
 }
