@@ -5,7 +5,8 @@
 }
 
 body{
-	background: black;
+	/*background-image: url(../images/spice3.jpg);*/
+	background-color: black;
 }
 
 .navbar{
@@ -26,7 +27,16 @@ body{
 .jumbotron-fluid h2{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 5em;
-	color: white;
+}
+
+.img-thumbnail{
+	height: 130px;
+	width: 100px;
+}
+
+
+.card-img-top{
+	height: 250px;
 }
 
 #footer{
@@ -39,6 +49,10 @@ body{
 	filter: invert(100%)
 }
 
+.card-image-top{
+	height: 500px;
+	width: 350px;
+}
 .fa-facebook:hover{
 	color: #3B5998;
 }
@@ -62,7 +76,10 @@ body{
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-
+	.img-thumbnail{
+	height: 100px;
+	width: 70px;
+}
 
 }
 
