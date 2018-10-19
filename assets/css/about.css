@@ -24,7 +24,7 @@ body{
 
 
 .jumbotron{
-	background-image: url(../images/bbq1.jpg);
+	background-image: url(../images/img2.jpg);
 	background-size: cover;
 	height: 100vh;
 	border-radius: 0;
@@ -36,8 +36,8 @@ body{
 #landing-about{
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
-	font-size: 5em;
-	padding-top:30vh;
+	font-size: 7em;
+	padding-top:35vh;
 	letter-spacing: 5px;
 	font-weight: bold;
 }
@@ -55,7 +55,7 @@ body{
 .jumbotron-fluid h2{
 	font-family: 'Montserrat', sans-serif;
 	color: #f2f2f2;
-	font-size: 5em;
+	font-size: 6em;
 }
 
 .card-deck{
@@ -66,8 +66,14 @@ body{
 	font-weight: bold;
 }
 
+.card{
+	background-color: black;
+	color: white;
+}
+
 #history{
 	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
 }
 
 #history-p{

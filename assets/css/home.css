@@ -18,35 +18,38 @@
 .nav-link:hover{
 	color: #ffa500;
 	font-weight: 900;
+	text-decoration: none;
 }
 
-#head{
-	background-image: url(../images/smoker.jpg);
+
+#landing-button{
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	color: black;
+	border:3px solid #ffa500;
+}
+
+#landing-button:hover{
+	color: #141414;
+	font-weight: 700;
+}
+
+#jumbotron{
+	background-image: url(../images/img1.jpg);
 	background-size: cover;
+	color: white;
 }
 
-
-#logo{
-	height:230px;
-	width: 200px;
-	filter: invert(100%);
-	}
-
-#logo-bottom{
-	height:120px;
-	width: 100px;
-	}
-
+.btn{
+	font-weight: 700;
+}
 
 .carousel-item p{
-	color: white;
 	font-size: 4em;
-	font-family: 'Anton', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.carousel-item span{
-	color: #ffa500;
-}
 
 
 #contact{
@@ -74,12 +77,6 @@
 
 .lead{
 	font-family: 'Montserrat', sans-serif;
-}
-
-#homerun{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 4em;
-	font-weight: bold;
 }
 
 
@@ -110,15 +107,8 @@ and (min-device-width : 320px)
 and (max-device-width : 960px) {
 
 	.carousel-item p{
-	color: white;
 	font-size: 2em;
-	font-family: 'Anton', sans-serif;
-	}
-
-	#logo{
-	height:100px;
-	width: 70px;
-	filter: invert(100%);
+	font-family:  'Montserrat', sans-serif;
 	}
 
 	.container-fluid h1{
@@ -145,27 +135,16 @@ and (max-device-width : 960px) {
 and (min-width: 481px) 
 and (max-width: 960px)
 {
-	#logo{
-	height:230px;
-	width: 200px;
-	filter: invert(100%);
-	margin-top: 50px;
-	}
 
 	.carousel-item p{
-	color: white;
 	font-size: 4em;
-	font-family: 'Anton', sans-serif;
+	font-family:  'Montserrat', sans-serif;
 	}
 
 	.container-fluid h1{
 	font-size: 2em;
 	font-family:  'Montserrat', sans-serif;
 	font-weight: bold;
-	}
-
-	#par-home{
-		font-size: 1em;
 	}
 
 }

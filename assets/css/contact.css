@@ -53,11 +53,6 @@ body{
 	color: white;
 }
 
-#logo{
-	height:120px;
-	width: 100px;
-	filter: invert(100%)
-}
 
 .btn{
 	font-weight: 700;
